@@ -1,0 +1,104 @@
+body {
+    margin:0;
+    background-color:lightblue;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: gray;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    position:relative; 
+    left:70%;
+    top:15px;
+  }
+  .topnav a:hover .home {
+    background-color: darkgray;
+  }
+  .topnav .logo {
+    float: left;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position:relative; 
+    left:3%;
+    top:0px;
+  }
+  footer {
+    background-color: gray;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    bottom: 0;
+    right:0;
+    position: fixed;
+    width: 100%;
+    padding: 2;
+  }
+  .fotertext {
+    font-size: 15px;
+    margin-bottom: 1px;
+    margin-left: 5%;
+  }
+  .fotertext li {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+  }
+  .fb {
+    margin:0;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 300px;
+    text-align: center;
+    background-color: white;
+    margin-top: 250px;
+  }  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+    text-align: center;
+    background-color: white;
+    margin-left: 1500px;
+    margin-top: -675px;
+  } 
+  .infotext{
+    text-align: center;
+  }
+  .veiklatext{
+    text-align: center;
+  }
+  .maintext{
+    text-align: center;
+    margin-top:100px;
+    font-size: 150%;
+  }
+  .image{
+    margin-left: 35%;
+  }
+  .istorijatext{
+    text-align: center;
+    font-size: 130%;
+  }
