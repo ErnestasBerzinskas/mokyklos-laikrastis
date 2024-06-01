@@ -12,13 +12,13 @@ body {
     color: black;
     padding: 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     position:relative; 
     left:70%;
     top:15px;
   }
   .topnav a:hover .home {
-    background-color: darkgray;
+    background-color: rgb(243, 237, 255);
   }
   .topnav .logo {
     float: left;
@@ -33,7 +33,7 @@ body {
   footer {
     background-color: gray;
     padding-top: 1rem;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     bottom: 0;
     right:0;
     position: fixed;
@@ -60,12 +60,13 @@ body {
     text-align: center;
     background-color: white;
     margin-top: 250px;
+    font-size: 20px;
   }  
   button {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px;
+    padding: 7px;
     color: white;
     background-color: #000;
     text-align: center;
@@ -78,11 +79,12 @@ body {
   }
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 30%;
+    max-width: 35%;
     text-align: center;
     background-color: white;
-    margin-left: 1500px;
-    margin-top: -675px;
+    margin-left: 1300px;
+    margin-top: -625px;
+    font-size: 20px;
   } 
   .infotext{
     text-align: center;
@@ -101,4 +103,95 @@ body {
   .istorijatext{
     text-align: center;
     font-size: 130%;
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 300px;
+    text-align: center;
+    background-color: white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 20px;
+  }
+  .knygatext {
+    font-size: 40px;
+  }
+  .knygatext li {
+    font-size: 40px;
+  }
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 1300px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 250px;
+    margin-top: -1060px;
+    font-size: 20px;
+  }
+  .mokytistext {
+    font-size: 15px;
+  }
+  .mokytistext li {
+    font-size: 13px;
+  }
+  .paryskintas {
+    font-weight: bold;
+  }
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 300px;
+    text-align: center;
+    background-color: white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 20px;
+  }
+  .skirtitext {
+    font-size: 30px;
+  }
+  .skirtitext li {
+    font-size: 30px;
+  }
+  .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 1300px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 250px;
+    margin-top: -1000px;
+    font-size: 20px;
+  }
+  .klasetext {
+    font-size: 30px;
+  }
+  .card7 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 300px;
+    text-align: center;
+    background-color: white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 20px;
+  }
+  .konkursastext {
+    font-size: 30px;
+  }
+  .card8 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 35%;
+    margin-left: 1300px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 250px;
+    margin-top: -1000px;
+    font-size: 20px;
+  }
+  .durudienatext {
+    text-align: center;
+    font-size: 20px;
   }
